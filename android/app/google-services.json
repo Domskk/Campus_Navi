@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "611798612784",
+    "firebase_url": "https://gccampusnavigation-default-rtdb.firebaseio.com",
+    "project_id": "gccampusnavigation",
+    "storage_bucket": "gccampusnavigation.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611798612784:android:43d8bafa2f26c321cd26f5",
+        "android_client_info": {
+          "package_name": "com.example.frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbgG-qtM5MZukWwmdSC7i9J-5wjLlNYzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611798612784:android:efed6f40e6b16400cd26f5",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbgG-qtM5MZukWwmdSC7i9J-5wjLlNYzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
