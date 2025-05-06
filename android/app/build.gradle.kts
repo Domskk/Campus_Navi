@@ -1,6 +1,6 @@
 plugins {
     id("com.android.application")
-    // START: FlutterFire Configuration
+     // Add the Google services Gradle plugin
     id("com.google.gms.google-services")
     // END: FlutterFire Configuration
     id("kotlin-android")
@@ -8,6 +8,10 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
+dependencies {
+  implementation(platform("com.google.firebase:firebase-bom:33.13.0"))
+  implementation("com.google.firebase:firebase-analytics")
+}
 android {
     namespace = "com.example.frontend"
     compileSdk = flutter.compileSdkVersion
